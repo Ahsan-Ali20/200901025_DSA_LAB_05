@@ -1,0 +1,33 @@
+Collections in python are basically container data types, namely lists, sets, tuples, dictionary. They have different characteristics based on the declaration and the usage.
+Specialized Collection Data Structures
+Collections module in python implements specialized data structures which provide alternative to python’s built-in container data types. Following are the specialized data structures in collections module.
+1.	namedtuple( )
+2.	deque
+3.	Chainmap
+4.	Counter
+5.	OrderedDict
+6.	defaultdict
+7.	UserDict
+8.	UserList
+9.	UserString
+Collections Library and uses in data structure
+1)The Counter:
+The Counter() function in collections module takes an iterable or a mapping as the argument and returns a Dictionary.
+2)Deque:
+You can easily insert an element to the deq we created at either of the ends. To add an element to the right of the deque, you have to use append() method.
+3)Defaultdict
+The defaultdict works exactly like a python dictionary, except for it does not throw KeyError when you try to access a non-existent key.
+4)The Namedtuple:
+The namedtuple() returns a tuple with names for each position in the tuple. One of the biggest problems with ordinary tuples is that you have to remember the index of each field of a tuple object
+5) ChainMap:
+It is a dictionary like class which is able to make a single view of multiple mappings. It basically returns a list of several other dictionaries. 
+6) OrderedDict:
+It is a dictionary subclass which remembers the order in which the entries were added. Basically, even if you change the value of the key, the position will not be changed because of the order in which it was inserted in the dictionary.
+
+7) UserDict:
+This class acts as a wrapper around dictionary objects. The need for this class came from the necessity to subclass directly from dict. It becomes easier to work with this class as the underlying dictionary becomes an attribute.
+8) UserList:
+This class acts like a wrapper around the list objects. It is a useful base class for other list like classes which can inherit from them and override the existing methods or even add a fewer new ones as well.
+9) UserString:
+ Python supports a String like a container called UserString present in the collections module. This class acts as a wrapper class around the string objects. This class is useful when one wants to create a string of their own with some modified functionality or with some new functionality. It can be considered as a way of adding new behaviors for the string. 
+These all functions specially support data structure.
